@@ -1,0 +1,71 @@
+/* Estilos globales */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    background-color: #F5F5F5;
+    color: #333;
+    margin: 0;
+}
+
+/* Estilo para la barra de navegación */
+nav {
+    background-color: #FF9800;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilos para el contenido principal */
+.main-content {
+    text-align: center;
+    margin: 20px;
+}
+
+.main-content img {
+    width: 300px;
+    height: auto;
+    margin: 20px auto;
+    display: block; 
+}
+
+button {
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #E68900;
+
+}
+
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #FF9800;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
